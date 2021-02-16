@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.cardlink{
+	text-decoration: none;
+	color: white;
+}
+
+.cardlink:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.cardlink:visited{
+	text-decoration: none;
+	color: white;
+}
+
+table{
+	width: 100%;
+}
+
+
+td{
+	border: 1px solid black;
+	text-align: center;
+	padding: 2px;
+}
+
+.logincontainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pointer::hover{
+	cursor: pointer;
+}
+
+.dropdown-action{
+	width: 100%;
+}
+
+nav#sidebarnav {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+div#dashboardcontainer {
+    height: 400px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+   
+}
+
+
+.dataTable{
+	width: 100%;
+}
+
+
+div.dataTables_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+		overflow-x: scroll;
+}
+
+
+
+
